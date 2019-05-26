@@ -1,7 +1,5 @@
 # Vue.js 技术揭秘
 
-[电子书](https://ustbhuangyi.github.io/vue-analysis/)
-
 目前社区有很多 Vue.js 的源码解析文章，但是质量层次不齐，不够系统和全面，这本电子书的目标是全方位细致深度解析 Vue.js 的实现原理，让同学们可以彻底掌握 Vue.js。目前分析的版本是 Vue.js 的最新版本 Vue.js 2.5.17-beta.0，并且之后会随着版本升级而做相应的更新，充分发挥电子书的优势。
 
 这本电子书是作为 [《Vue.js 源码揭秘》](http://coding.imooc.com/class/228.html)视频课程的辅助教材。电子书是开源的，同学们可以免费阅读，视频是收费的，25+小时纯干货课程，如果有需要的同学可以购买来学习，**但请务必支持正版，请尊重作者的劳动成果**。
@@ -10,11 +8,11 @@
 
 为了把 Vue.js 的源码讲明白，课程设计成由浅入深，分为核心、编译、扩展、生态四个方面去讲，并拆成了八个章节，如下图：
 
-<img src="https://ustbhuangyi.github.io/vue-analysis/assets/mind.png">
+<img :src="$withBase('/assets/mind.png')">
 
 **第一章：准备工作**
 
-介绍了 Flow、Vue.js 的源码目录设计、Vue.js 的源码构建方式，以及从入口开始分析了 Vue.js 的初始化过程。
+介绍了 Flow、Vue.js 的源码目录设计、Vue.js 的源码构建方式，以及从入口开始分析了 Vue.js 的初始化过程。
 
 **第二章：数据驱动**
 

@@ -1,0 +1,1 @@
+module.exports.srcPartPath = 'src-updateChildren'
