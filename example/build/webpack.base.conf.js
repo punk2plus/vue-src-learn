@@ -3,7 +3,7 @@ const path = require('path')
 const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
-const { srcPartPath } = require('./build-config')
+const { srcPartPath } = require('../build-config')
 
 
 function resolve (dir) {
