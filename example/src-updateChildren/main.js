@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import App from './App.vue'
+import App from './App3.vue'
 
 // snabbdom
 // https://segmentfault.com/a/1190000009017349
